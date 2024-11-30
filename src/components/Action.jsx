@@ -14,9 +14,9 @@ function Action() {
                     <h2>Feel like a skibidi gyatt, but still stuck in NPC mode?</h2>
                     <span className='text-md '>
                         Get rizzed up and level up your language game!
-                        With our AI-powered lessons, you’ll be flexing your "Livvy Dunne wizz" and mastering "Baby Gronk" level brainrot in no time!
+                        With our AI-powered lessons, you’ll be flexing your &quot;Livvy Dunne wizz&quot; and mastering &quot;Baby Gronk&quot; level brainrot in no time!
                         <p className='mt-5'>
-                        No cap, you’ll be wizzing through sussy imposter phrases and rolling through Pibby glitch moments like a true sigma alpha omega male. Whether you're a goon cave legend or hitting that griddy the Ocky way, our AI will have you busting it down like you’ve been fluent for years.
+                        No cap, you’ll be wizzing through sussy imposter phrases and rolling through Pibby glitch moments like a true sigma alpha omega male. Whether you&apos;re a goon cave legend or hitting that griddy the Ocky way, our AI will have you busting it down like you’ve been fluent for years.
                         </p>
                     </span>
 
