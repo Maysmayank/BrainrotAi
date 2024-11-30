@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function Action() {
@@ -5,7 +6,7 @@ function Action() {
         <div className='mt-[100px]'>
             <div className=' grid grid-cols-2 px-10' >
                 <div>
-                    <img src="sonic.gif" className='rounded-full' alt="" />
+                    <Image src="/sonic.gif" width={500} height={500} className='rounded-full' alt="" />
                 </div>
 
                 <div className='text-black flex flex-col items-center mt-20 gap-4' >

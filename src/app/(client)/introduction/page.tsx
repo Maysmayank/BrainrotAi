@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function page() {
@@ -6,7 +7,7 @@ function page() {
 
       <div className='flex mt-10 gap-10 justify-around px-10'>
         <div>
-          <img src="intro.jpg" className='rounded-xl w-[600px]' alt="" />
+          <Image src="intro.jpg" height={100} width={100} className='rounded-xl w-[600px]' alt="" />
         </div>
 
         <div className='flex flex-col  gap-4 mt-10'>
@@ -36,7 +37,7 @@ function page() {
           </span>
 
         </div>
-        
+
       </div>
     </div>
   )
