@@ -102,7 +102,7 @@ const Page = () => {
             </div>
             <hr className="mt-8" />
             <div className="pb-5 card mt-5 flex gap-2">
-              <Image src="/Kai.jpg" alt="" width={80} height={50} className="h-20 rounded-full p-1" />
+              <Image src="/kai.jpg" alt="" width={80} height={50} className="h-20 rounded-full p-1" />
               <div className="text-white">
                 <p className="text-xs">
                   I was stuck in the basic grindset at first, but now I'm rizzed up with that AI power—straight-up flexin' like the GOAT. From being clueless to dropin’ memes like an OG, this AI bot leveled me up. You know what they say, once you get that brainrot fluency, you can't go back. Now I'm flexin' Sigma energy with the best of 'em, sippin' on that rizz juice—no cap, it's a whole new level. Certified fire!
