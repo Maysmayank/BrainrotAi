@@ -9,7 +9,9 @@ const Page = () => {
   const [ socketInstance,setSocketInstance] = useState(null);
   
   const [chatHistory, setChatHistory] = useState([
-    { sender: "AI", message: "Aight, blud! Let’s hit this goofy ahhhh grindset and Let Your Aura speak in the Society!" },
+    { sender: "AI", message: "Aight, Let’s hit goofy ahhhh grindset and Let Your Aura speak in the Society!" },
+
+
   ]);
 
   useEffect(() => {
@@ -57,11 +59,12 @@ const Page = () => {
         </header>
 
         {/* Chat Area */}
-        <div className="response-section flex-1 bg-[#1C1C1C] w-[76%] rounded-tr-xl rounded-tl-xl overflow-y-auto p-4">
+        <div className="mr-20 response-section relative flex-1 bg-[#1C1C1C] w-[76%] rounded-tr-xl rounded-tl-xl overflow-y-auto p-4">
           {chatHistory.map((chat, index) => (
-            <div key={index} className={`flex break-words ${chat.sender === "User" ? "justify-end" : "justify-start"} mb-2`}>
-              <Image src={"/Brainrot_200x200_logo.webp"} className="rounded-full mr-2" width={40} alt="" height={200}></Image>
-              <div className={`${chat.sender === "User" ? "bg-blue-500 text-sm text-white" : "bg-gray-300 text-sm text-black"} rounded-xl p-3 font-bold max-w-[70%]`}>
+            <div key={index} className={`py-2 flex break-words ${chat.sender === "User" ? "justify-end" : "justify-start"} mb-2`}>
+              {chat.sender==="AI"&&<Image src={"/Brainrot_200x200_logo.webp"} className="absolute rounded-full mr-2" width={50} alt="" height={100}></Image>
+}
+              <div className={`${chat.sender === "User" ? "bg-blue-500 text-sm text-white" : "bg-gray-300 text-sm text-black"} ml-16 rounded-xl p-3 font-bold max-w-[70%]`}>
                 {chat.message}
               </div>
             </div>
