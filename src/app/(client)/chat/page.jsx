@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Page = () => {
   const [userMessage, setUserMessage] = useState("");
-  const [socketInstance, setSocketInstance] = useState(null);
+  const [ setSocketInstance] = useState(null);
   
   const [chatHistory, setChatHistory] = useState([
     { sender: "AI", message: "Aight, blud! Let’s hit this goofy ahhhh grindset and Let Your Aura speak in the Society!" },
