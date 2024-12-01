@@ -57,5 +57,4 @@ Learning should be fun! We’ll be adding **gamification elements**, such as qui
 ### 5. **Advanced Real-Time Conversations** 💬
 To enhance the AI chatbot experience, we’ll be incorporating **advanced real-time simulations** where users can have fun, lifelike conversations. This will help users practice their Brainrot terms in authentic, social contexts.
 
-We’re just getting started, and we can’t wait to share the next chapters in **BrainRotLang's** journey with you! Stay connected and keep learning. 🌟
 
