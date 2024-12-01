@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Page = () => {
   const [userMessage, setUserMessage] = useState("");
-  const [ setSocketInstance] = useState(null);
+  const [ socketInstance,setSocketInstance] = useState(null);
   
   const [chatHistory, setChatHistory] = useState([
     { sender: "AI", message: "Aight, blud! Let’s hit this goofy ahhhh grindset and Let Your Aura speak in the Society!" },
@@ -42,7 +42,7 @@ const Page = () => {
     
     setChatHistory((prev) => [...prev, { sender: "User", message: userMessage }]);
     setUserMessage(""); // Clear the input field
-    // socketInstance.emit("user_message", userMessage); // Emit the user message to the server
+    socketInstance.emit("user_message", userMessage); // Emit the user message to the server
   };
 
   return (
@@ -79,7 +79,6 @@ const Page = () => {
               placeholder="Ask here for RotMaxxing..."
             ></textarea>
             <button
-            disabled
               onClick={handleSendMessage}
               className="  bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
             >
