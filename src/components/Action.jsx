@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 function Action() {
@@ -16,12 +17,16 @@ function Action() {
                         Get rizzed up and level up your language game!
                         With our AI-powered lessons, you’ll be flexing your &quot;Livvy Dunne wizz&quot; and mastering &quot;Baby Gronk&quot; level brainrot in no time!
                         <p className='mt-5'>
-                        No cap, you’ll be wizzing through sussy imposter phrases and rolling through Pibby glitch moments like a true sigma alpha omega male. Whether you&apos;re a goon cave legend or hitting that griddy the Ocky way, our AI will have you busting it down like you’ve been fluent for years.
+                            No cap, you’ll be wizzing through sussy imposter phrases and rolling through Pibby glitch moments like a true sigma alpha omega male. Whether you&apos;re a goon cave legend or hitting that griddy the Ocky way, our AI will have you busting it down like you’ve been fluent for years.
                         </p>
                     </span>
+        
 
-                    <button className='bg-[#02153D] w-[20%] text-white rounded-xl py-1'>Hop In</button>
-                </div>
+                    <Link href={"/chat"} className='  w-[25%]'>
+                        <button className='bg-[#F55737] px-10 py-1 rounded-lg text-white hover:bg-[#ce472c] first-letter:'>Rizz Up</button>
+
+                    </Link>               
+                     </div>
 
             </div>
         </div>
