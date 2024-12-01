@@ -13,7 +13,7 @@ const Page = () => {
 
   useEffect(() => {
     // Initialize WebSocket connection only once
-    const newSocket = io("https://genz-chatbot-backend.vercel.app", {
+    const newSocket = io("https://genz-chatbot-backend-production.up.railway.app", {
       path: "/socket.io", // Ensure this matches your backend's Socket.IO configuration
       transports: ["websocket"],
       withCredentials: true,
