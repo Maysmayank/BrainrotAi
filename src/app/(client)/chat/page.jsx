@@ -13,8 +13,12 @@ const Page = () => {
 
   useEffect(() => {
     // Initialize WebSocket connection only once
-    const newSocket = io.connect("https://genz-chatbot-backend.vercel.app");
-    setSocketInstance(newSocket);
+    const newSocket = io("https://genz-chatbot-backend.vercel.app", {
+      path: "/socket.io", // Ensure this matches your backend's Socket.IO configuration
+      transports: ["websocket"],
+    });   
+
+     setSocketInstance(newSocket);
 
     // Listen for model responses
     newSocket.on("model_response", (data) => {
