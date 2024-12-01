@@ -13,7 +13,7 @@ const Page = () => {
 
   useEffect(() => {
     // Initialize WebSocket connection only once
-    const newSocket = io.connect("http://localhost:5000");
+    const newSocket = io.connect("https://genz-chatbot-backend.vercel.app");
     setSocketInstance(newSocket);
 
     // Listen for model responses
