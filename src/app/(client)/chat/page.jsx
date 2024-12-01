@@ -16,6 +16,7 @@ const Page = () => {
     const newSocket = io("https://genz-chatbot-backend.vercel.app", {
       path: "/socket.io", // Ensure this matches your backend's Socket.IO configuration
       transports: ["websocket"],
+      withCredentials: true,
     });   
 
      setSocketInstance(newSocket);
