@@ -1,7 +1,7 @@
 ## Inspiration
 Writing **Brainrot terms** is not an easy task, and recognizing them is even more difficult, especially when you're with your buddies or online and one of them pulls out a Brainrot term. In those moments, you can feel left out, guilty for not learning the language, and disconnected from the conversation.
 
-This issue, often overlooked in formal education and course syllabi, inspired us to create **BrainRotLang**—a platform that bridges the gap for those struggling to grasp the Brainrot language. Our mission is to ensure no one feels left out, enabling people regardless of their age to understand, learn, and thrive in their social circles confidently.
+This issue, often overlooked in formal education and course syllabus, inspired us to create **BrainRotLang**—a platform that bridges the gap for those struggling to grasp the Brainrot language. Our mission is to ensure no one feels left out, enabling people regardless of their age to understand, learn, and thrive in their social circles confidently.
 
 ## What It Does
 **BrainRotLang** is an **AI-powered platform** designed to teach and simplify the **Brainrot language** for anyone struggling to understand without looking up to the internet and waste time.
